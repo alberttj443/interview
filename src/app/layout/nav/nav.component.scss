@@ -1,0 +1,27 @@
+ 
+  
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .nav-links a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    &.active{
+        background-color: #818080;
+    }
+  }
+  
+  .nav-links a:hover {
+    background-color: #555;
+  }
+  
+   
+  

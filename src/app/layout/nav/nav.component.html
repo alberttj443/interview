@@ -1,0 +1,7 @@
+<nav class="nav-links">
+ 
+    <a  routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >Dashboard</a>
+    <a routerLink="/profile" routerLinkActive="active">Profile</a>
+    <a *ngIf="role=='Admin'" routerLink="/settings" routerLinkActive="active">Settings</a>
+    <a *ngIf="role=='Admin'" routerLink="/user-management" routerLinkActive="active">User Management</a>
+  </nav>
